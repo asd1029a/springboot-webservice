@@ -1,7 +1,8 @@
 language: java
 jdk:
   - openjdk11
-
+before_install:
+  - chomod +x gradlew
 branches:
   only:
     - master
