@@ -36,7 +36,7 @@ deploy:
     bucket: kjm-springboot-study-build
     key: springboot-webservice.zip
     build_type: zip
-    application: springboot-study-webservice
+    application: springboot-webservice
     deployment_group: springboot-study-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
