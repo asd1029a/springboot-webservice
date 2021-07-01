@@ -24,7 +24,7 @@ deploy:
     access_key_id: AKIARSAFZKF6RD7AIYVO
     secret_access_key: 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
     bucket: kjm-springboot-study-build
-    region: ap-northeast-2c
+    region: ap-northeast-2
     skip_cleanup: true
     acl: private
     local_dir: deploy
@@ -38,7 +38,7 @@ deploy:
     build_type: zip
     application: springboot-study-webserivce #주위! 이름
     deployment_group: springboot-study-webservice-group
-    region: ap-northeast-2c
+    region: ap-northeast-2
     wait-until-deployed: true
 
 #CI 실행 완료시 메일로 알려주자  아디  비
